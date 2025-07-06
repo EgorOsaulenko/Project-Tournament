@@ -12,6 +12,7 @@ This project allows you to:
 
 Ideal for creating quick tournament brackets for sports, e-sports, or any competitive events.
 
+
 ## 📂 Project Structure
 
 ```
@@ -23,5 +24,3 @@ Ideal for creating quick tournament brackets for sports, e-sports, or any compet
 ├─ .gitignore         # Git ignore rules
 └─ .gitattributes     # Git attributes configuration
 ```
-
-
