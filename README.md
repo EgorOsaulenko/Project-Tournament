@@ -15,6 +15,7 @@ Ideal for creating quick tournament brackets for sports, e-sports, or any compet
 
 ## 📂 Project Structure
 
+
 ```
 /
 ├─ app/               # Core application logic
@@ -23,4 +24,5 @@ Ideal for creating quick tournament brackets for sports, e-sports, or any compet
 ├─ main.py            # CLI entry point to run the tournament
 ├─ .gitignore         # Git ignore rules
 └─ .gitattributes     # Git attributes configuration
+
 ```
