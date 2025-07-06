@@ -15,13 +15,12 @@ Ideal for creating quick tournament brackets for sports, e-sports, or any compet
 
 ## 📂 Project Structure
 
- ```
 /
-├─ app/               # Core application logic
-│   ├─ tournament.py  # Tournament and bracket generation classes
-│   └─ simulate.py    # Simulation logic and match flow
-├─ main.py            # CLI entry point to run the tournament
-├─ .gitignore         # Git ignore rules
-└─ .gitattributes     # Git attributes configuration
+├─ app/ # Core application logic
+│ ├─ tournament.py # Tournament and bracket generation classes
+│ └─ simulate.py # Simulation logic and match flow
+├─ main.py # CLI entry point to run the tournament
+├─ .gitignore # Git ignore rules
+└─ .gitattributes # Git attributes configuration
 
  ```
