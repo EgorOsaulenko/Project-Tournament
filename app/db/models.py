@@ -13,7 +13,7 @@ class Team(Base):
 
     id: Mapped[str] = mapped_column(String(100), primary_key=True)
     name: Mapped[str] = mapped_column(String(100))
-    private: Mapped[bool] = mapped_column(Boolean())
+    private: Mapped[bool] = mapped_column(Boolean)
     users: Mapped[List["User"]] = relationship(secondary=UserTeamAssoc.__tablename__, back_populates="teams", lazy="selectin")
     tournaments: Mapped[List["Tournament"]] = relationship(secondary=Result.__tablename__, back_populates="teams", lazy="selectin")
 
