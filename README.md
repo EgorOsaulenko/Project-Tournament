@@ -1,6 +1,6 @@
 # 🏆 Tournaments App
 
-A web application for managing online game tournaments (e.g., Dota, CS:GO, Valorant).  
+A web application for managing **sport and esports tournaments** — from local football leagues to Dota 2 brackets.  
 Built with **FastAPI** (backend) and ready for frontend integration.
 
 ---
