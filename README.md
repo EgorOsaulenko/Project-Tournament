@@ -46,7 +46,8 @@ Built with **FastAPI** (backend) and ready for frontend integration.
 
 ## 📁 Project Structure
 
-app/
+app/ 
+
 ├── models/     # SQLAlchemy models 
 
 ├── schemas/    # Pydantic schemas 
