@@ -47,8 +47,12 @@ Built with **FastAPI** (backend) and ready for frontend integration.
 ## 📁 Project Structure
 
 app/
-├── models/     # SQLAlchemy models
-├── schemas/    # Pydantic schemas
+├── models/     # SQLAlchemy models 
+
+├── schemas/    # Pydantic schemas 
+
 ├── routes/     # API routes (users, tournaments, matches, etc.)
-├── services/   # Business logic
+
+├── services/   # Business logic 
+
 └── main.py     # App entry point
