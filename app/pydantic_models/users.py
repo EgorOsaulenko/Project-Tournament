@@ -12,3 +12,4 @@ class UserModelResponse(BaseModel):
     username: str
     email: str
     is_active: bool
+

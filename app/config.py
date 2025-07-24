@@ -1,4 +1,4 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -6,5 +6,6 @@ class Settings(BaseSettings):
     secret_key: str = "super secret key"
     exp_time_minutes: int = 30
 
+    model_config = SettingsConfigDict(env_file=".env")
 
 settings = Settings()
